@@ -1,4 +1,4 @@
-FROM node:6.9.1
+FROM ppc64le/node:6.9.1
 COPY . /app
 WORKDIR /app
 RUN npm install
